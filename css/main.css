@@ -95,36 +95,64 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header nav {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
+  width:60%;
+  padding:70px 0;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width:43%;
+  padding: 15px 0 15px 0;
+}
+
+.content-wrapper {
+  width:60%
+}
+.header-divider {
+  width: 100%;
 }
 
 footer .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 32px;
 }
 
 footer .social{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 15px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  margin: 50px 0 ;
+  width: 55%;
+  padding: 80px;
 }
 
 .hero-area {
@@ -140,10 +168,19 @@ aside {
   flex-flow: row wrap;
 }
 
+article {
+  width:57%;
+}
+
 .features{
   display:flex;
   justify-content: center;
   align-items: center;
+  padding:40px 0;
+}
+
+.features p {
+  margin: 0;
 }
 
 .features-items {
@@ -158,6 +195,11 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 15px 0;
+}
+
+h3 .reviews {
+  width:89%;
 }
 
 .mission {
